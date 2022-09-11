@@ -1,5 +1,5 @@
-import HomePage from './components/HomePage';
-import './styles/App.css';
+import './styles/App.css'
+import HomePage from './components/HomePage.js'
 
 function App() {
   return (
@@ -7,4 +7,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
