@@ -2,18 +2,18 @@ import React from 'react'
 
 const HomePage = () => {
     return (
-        <div classname='container'>
+        <div className='container'>
             <div className='title-content'>
                 <div className='logo'>
                     Accomplish
                 </div>
-                <div className='home-pre-title'>
+                <div className='pre-title'>
                     Assign. Manage. <span className='title-logo'>Accomplish</span>
                 </div>
-                <div className='home-title'>
+                <div className='title'>
                     Failing to achieve your goals is not an option.
                 </div>
-                <div className='home-sub-title'>
+                <div className='sub-title'>
                     Accomplish 'em all.
                 </div>
             </div>
