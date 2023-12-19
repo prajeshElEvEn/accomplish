@@ -4,11 +4,9 @@ import click
 
 
 @click.command()
-def main(args=None):
-    """Console script for accomplish."""
-    click.echo("Replace this message by putting your code into "
-               "accomplish.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
+@click.option("--name", prompt="Enter your name", help="The name of user")
+def main(name):
+    click.echo(f'Hi {name}')
     return 0
 
 
